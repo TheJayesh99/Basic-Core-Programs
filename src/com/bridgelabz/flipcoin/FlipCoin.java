@@ -2,8 +2,10 @@ package com.bridgelabz.flipcoin;
 
 import java.util.Scanner;
 
-public class FlipCoin {
-public static void main(String[] args) {
+public class FlipCoin
+{
+	public static void main(String[] args)
+	{
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -20,6 +22,7 @@ public static void main(String[] args) {
 		{
 			//method to flip a coin
 			int countHeads = flip(numberOfFlips);
+	
 			double percentOfHeads = (countHeads*100)/numberOfFlips;
 			double percentOfTails = 100-percentOfHeads;
 			System.out.println("heads percentage : "+ percentOfHeads);
