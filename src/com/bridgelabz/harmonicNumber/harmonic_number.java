@@ -7,7 +7,7 @@ public class harmonic_number {
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Enter the value Of till which you have to print table of power 2 ");
+		System.out.println("Enter the value Of till of which you what to  find harmonic number ");
 		int N = scanner.nextInt();
 		scanner.close();
 		double harmonicNumber = 0.0 ;
