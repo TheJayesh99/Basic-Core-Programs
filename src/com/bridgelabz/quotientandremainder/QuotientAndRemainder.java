@@ -1,8 +1,8 @@
-package com.bridgelabz.quotientAndRemainder;
+package com.bridgelabz.quotientandremainder;
 
 import java.util.Scanner;
 
-public class Quotient_And_Remainder {
+public class QuotientAndRemainder {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -13,8 +13,8 @@ public class Quotient_And_Remainder {
 		scanner.close();
 
 
-		System.out.println("The Quotient is "+(divident/divisor));
-		System.out.println("The remainder is "+(divident%divisor));
+		System.out.println("The Quotient is "+( divident / divisor ));
+		System.out.println("The remainder is "+( divident % divisor ));
 
 	}
 

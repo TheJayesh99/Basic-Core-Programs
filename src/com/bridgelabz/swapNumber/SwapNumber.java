@@ -1,4 +1,4 @@
-package com.bridgelabz.swapNumber;
+package com.bridgelabz.swapnumber;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class SwapNumber {
 		System.out.println("Enter the value 2nd number ");
 		int num2 = scanner.nextInt();
 		scanner.close();
-		
+
 		System.out.println("Before Swaping");
 		System.out.println("The Number 1 = "+num1);
 		System.out.println("The Number 2 = "+num2);
@@ -20,7 +20,7 @@ public class SwapNumber {
 		int temp = num1 ;
 		num1 = num2 ;
 		num2 = temp ;
-		
+
 		System.out.println("\n After swaping");
 		System.out.println("The Number 1 = "+num1);
 		System.out.println("The Number 2 = "+num2);

@@ -1,4 +1,4 @@
-package com.bridgelabz.evenOdd;
+package com.bridgelabz.evenodd;
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class EvenOdd {
 		System.out.println("Enter the  number to check weather its  even or odd");
 		int number = scanner.nextInt();
 		scanner.close();
-		if (number % 2 ==0 )
+		if (number % 2 == 0 )
 		{
 			System.out.println("The number is EVEN	");
 		}

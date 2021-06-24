@@ -1,8 +1,8 @@
-package com.bridgelabz.largestAmong3numbers;
+package com.bridgelabz.largestnumber;
 
 import java.util.Scanner;
 
-public class Largest_Among_3_numbers {
+public class LargestNumber {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -14,12 +14,12 @@ public class Largest_Among_3_numbers {
 		System.out.println("Enter the value 3rd number ");
 		int num3 = scanner.nextInt();
 		scanner.close();
-		
+
 		if ( num1 >= num2 && num1 >= num3 ) 
 		{		
 			System.out.println("The maximum number is "+num1);
 		}
-		
+
 		else if ( num2 >= num1 && num2 >= num3 ) 
 		{		
 			System.out.println("The maximum number is "+num2);
@@ -27,7 +27,7 @@ public class Largest_Among_3_numbers {
 		else 
 		{
 			System.out.println("The maximum number is "+num3);
-			
+
 		}
 	}
 
