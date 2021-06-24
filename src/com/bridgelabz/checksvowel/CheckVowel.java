@@ -1,4 +1,4 @@
-package com.bridgelabz.checkvowel;
+package com.bridgelabz.checksvowel;
 
 import java.util.Scanner;
 

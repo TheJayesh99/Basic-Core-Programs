@@ -1,4 +1,4 @@
-package com.bridgelabz.swapnumber;
+package com.bridgelabz.swapnumbers;
 
 import java.util.Scanner;
 

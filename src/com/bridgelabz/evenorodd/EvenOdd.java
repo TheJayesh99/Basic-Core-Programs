@@ -1,4 +1,4 @@
-package com.bridgelabz.evenodd;
+package com.bridgelabz.evenorodd;
 
 import java.util.Scanner;
 

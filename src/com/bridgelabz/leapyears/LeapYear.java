@@ -1,4 +1,4 @@
-package com.bridgelabz.leapyear;
+package com.bridgelabz.leapyears;
 
 import java.util.Scanner;
 

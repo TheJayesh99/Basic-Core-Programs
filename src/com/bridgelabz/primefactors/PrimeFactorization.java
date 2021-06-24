@@ -1,4 +1,4 @@
-package com.bridgelabz.primefactorization;
+package com.bridgelabz.primefactors;
 
 import java.util.Scanner;
 
